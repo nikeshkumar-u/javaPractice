@@ -1,0 +1,12 @@
+class WhileLoop 
+{
+	public static void main(String[] args) 
+	{
+		while (true)
+		{
+		
+		System.out.println("Java Script");
+		}
+	}
+}
+//WAP to print javascript infinite time

@@ -1,0 +1,20 @@
+class  Ass4
+{
+	public static void main(String[] args) 
+	{
+		int num =0;
+		int count = 0;
+		while (count <= 100 && num <=100)
+		{
+			if (num%2==0)
+			{
+			System.out.println(num);
+			
+			}
+			num ++;
+			count ++;
+
+		}
+		
+	}
+}

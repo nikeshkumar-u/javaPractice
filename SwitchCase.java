@@ -1,0 +1,27 @@
+class SwitchCase  
+{
+	public static void main(String[] args) 
+	{
+		String food = "Dosa";
+		switch(food)
+		{
+			case "idli":
+				System.out.println("Idli-Rs 1000");
+			case "vada":
+			    System.out.println("vada-Rs 900");
+				case "poori":
+			    System.out.println("poori-Rs 800");
+				case "pongal":
+			    System.out.println("pongal-Rs 1000");
+				case "upma":
+			    System.out.println("upma-Rs 8000");
+				case "Dosa":
+			    System.out.println("Dosa-Rs 10000");
+				
+				default:
+					System.out.println("invalid");
+
+		}
+	}
+}
+//WAP for switch case without using break statement

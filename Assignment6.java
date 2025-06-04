@@ -1,0 +1,19 @@
+class Assignment6 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		short res1 = a;
+		int res2 = res1;
+		long res3 =res2;
+		float res4 = res3;
+		double res5 = res4;
+
+      System.out.println(a);
+	  System.out.println(res1);
+	  System.out.println(res2);
+	  System.out.println(res3);
+	  System.out.println(res4);
+	  System.out.println(res5);
+	}
+}

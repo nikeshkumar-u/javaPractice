@@ -1,0 +1,14 @@
+import java.util.*;
+class Printnto1 
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter your number");
+		int num = sc.nextInt();
+		for (int i=num;i>=1 ;i-- )
+		{
+			System.out.println(i);
+		}
+	}
+}

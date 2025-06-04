@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class CheckVow
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter your Character");
+		char c = sc.next().charAt(0);
+
+		switch(c)
+		{
+			case 'A','a':
+				//System.out.println(c+" is vowel");
+			case 'E','e':
+				//System.out.println(c+" is vowel");
+			case 'I','i':
+				//System.out.println(c+" is vowel");
+			case 'O','o':
+				//System.out.println(c+" is vowel");
+			case 'U','u':
+				System.out.println(c+" is vowel");
+			break;
+			default
+				System.out.println(c+" is consonent");
+
+
+		}
+
+	}
+}
+//WAP to check character is vowels or consonents

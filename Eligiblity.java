@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Eligiblity 
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+     
+	 System.out.println("Slect your Gender");
+	 System.out.println("1.Male\n2.Female");
+	 int option = sc.nextInt();
+	 System.out.println("Enter you Age");
+	 int age = sc.nextInt();
+	 sc.nextLine();
+	 System.out.println("Enter your name");
+	 String name = sc.nextLine();
+	 if(option == 1 && age >= 21)
+		{
+		 System.out.println(name+" is eligible to marriage");
+		 }
+		 else if(option ==1 && age < 21)
+			 System.out.println(name+" is not eligible to marriage");
+		 else if(option == 2 && age >=18)
+			 System.out.println(name+" is eligible to marriage");
+		 else if (option ==2 && age < 18)
+			 System.out.println(name+" is not eligible to marriage");
+		 else
+			 System.out.println("You entered invalid data");
+		
+		 
+
+
+	}
+}

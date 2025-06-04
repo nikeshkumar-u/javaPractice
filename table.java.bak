@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class  table
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the number");
+		int num = sc.nextInt();
+		for (int i=10;i>=1 ; i--)
+		{
+
+			System.out.println(num + "X" + i " = "+ (num*i) );
+		}
+	}
+}
+//WAP read int from user and print the table

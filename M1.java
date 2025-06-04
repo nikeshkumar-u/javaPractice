@@ -1,0 +1,16 @@
+class M1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		String res = Nikki((char)67,6.78);
+		System.out.println(res);
+		System.out.println("End");
+	}
+	public static String Nikki(char a,double b)
+	{
+		System.out.println(a);
+		System.out.println(b);
+		return "Nikesh";
+	}
+}

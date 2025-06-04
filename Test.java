@@ -1,0 +1,17 @@
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		/*String a = "Hello";
+		String b = "hello";
+
+if(a.equals(b)) {
+    System.out.println("Same");
+} else {
+    System.out.println("Different");
+}
+// Output: Different (because it's case sensitive)*/
+
+
+	}
+}

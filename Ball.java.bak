@@ -1,0 +1,87 @@
+class Ball 
+{
+    private int radius;
+	public int getRadius(){
+		return radius;
+	}
+	public void setRadius(int radius){
+		this.radius=radius;
+	}
+}
+class BasketBall extends Ball
+{
+   //states
+   String game;
+
+   //const
+   game(){}
+
+   game(String game){
+	this.game=game;
+   }
+
+   //behaviour
+
+
+}
+class TenniesBall extends Ball
+{
+//states
+   String game;
+
+   //const
+   game(){}
+
+   game(String game){
+	this.game=game;
+   }
+
+   //behaviour
+}
+/*import java.util.Scanner;
+
+// Base class
+class Ball {
+    private double radius;
+
+    public Ball(double radius) {
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public String showGame() {
+        return "Generic Ball";
+    }
+}
+
+// Derived class: BasketBall
+class BasketBall extends Ball {
+    public BasketBall(double radius) {
+        super(radius);
+    }
+
+    @Override
+    public String showGame() {
+        return "BasketBall";
+    }
+}
+
+// Derived class: TennisBall
+class TennisBall extends Ball {
+    public TennisBall(double radius) {
+        super(radius);
+    }
+
+    @Override
+    public String showGame() {
+        return "Tennis";
+    }
+}
+*/

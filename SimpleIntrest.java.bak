@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class SimpleIntrest 
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter your Principle Amount");
+		int P = sc.nextInt();
+		System.out.println("Enter your Intrest rate");
+		int R = sc.nextInt();
+		System.out.println("Enter your Time in years");
+		int T = sc.nextInt();
+		int A = (P*R*T)/100;
+		P+=A
+		System.out.println(A+" is your intrest");
+		System.out.println(P+" is your final Amount");
+
+
+	}
+}
+/*A=P(1+rt)
+  A-- Amount
+  P-- Principle amount
+  r-- intrest rate%
+  t-- Time(in years)*/

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class CheckNum
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter your number1");
+		double num1 = sc.nextDouble();
+		System.out.println("Ener your number2");
+		double num2 = sc.nextDouble();
+
+		String res = (num1>num2)?"Num1 is greatr than Num2"+num1:"Num2 is greater than Num1"+num2;
+		System.out.println(res);
+		//double res = (num1>num2)? num1 : num2;
+		//System.out.println("Largest number is:"+res);
+	}
+}
+//Write a java program to find largest of two number

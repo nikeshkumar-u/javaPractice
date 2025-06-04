@@ -1,0 +1,11 @@
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+/* input   output
+    0        Zero
+	3         positive
+	-5        negative */

@@ -1,0 +1,25 @@
+class Assignment4 
+{
+	public static void main(String[] args) 
+	{
+		int a = 50;
+		float b = 54.55F;
+		long c = 775156L;
+		char d = 'n';
+		boolean f = true;
+		double g = 54.51565;
+		short h = 20005551;
+		byte i = 127;
+		String name = "Nikeshkumar";
+
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(i);
+		System.out.println(name);
+	}
+}

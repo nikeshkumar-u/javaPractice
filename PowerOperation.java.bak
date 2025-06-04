@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  PowerOperation
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter x value");
+		int x = sc.nextInt();
+		System.out.print("Enter n value");
+		int n = sc.nextInt();
+		int ans = 1;
+		for (int i=1;i<=n ;i++ )
+		{
+			ans*=x;
+		}
+		System.out.println(ans);
+
+	}
+}
+//WAP to perform x^n operation

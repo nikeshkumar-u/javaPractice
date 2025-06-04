@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class StrongNumber 
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter your number");
+		int number = sc.nextInt();
+		int sum = 0;
+		for (int i = number;i>0 ;i/=10 )
+		{
+			int n=i%10;
+			int prod = 1;
+			for (int j=2;j<=n ;j++ )
+			{
+				prod*=j;
+			}
+			 sum+=prod;
+		}
+			if (sum == number)
+			{
+				System.out.println("Strong number");
+			}
+			else {
+				System.out.println("Not strong number");
+			}
+		
+	}
+}
+//Assignment Amstrong number && perfect square or not

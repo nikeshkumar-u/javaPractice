@@ -1,0 +1,31 @@
+class M2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program Strats");
+		if (dinga(12345))
+		{
+		System.out.println("Chennai");
+		}
+		else {
+			System.out.println("Bangalore");
+		}
+		System.out.println("Program Ends");
+	}
+	public static boolean dinga(int a)
+	{
+		if (a%2==0)
+		  return false;
+
+		return dingi(a);
+		
+	}
+	public static boolean dingi(int a)
+	{
+		if (a<1000000)
+		  return true;
+
+		return false;
+		
+	}
+}
