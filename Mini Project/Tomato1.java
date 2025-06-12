@@ -1,4 +1,4 @@
-98import java.util.*;
+import java.util.*;
 public class Tomato1 
 {
 	static Scanner sc = new Scanner(System.in);
